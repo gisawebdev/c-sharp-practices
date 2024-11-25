@@ -1,48 +1,29 @@
 ﻿
+using System.Text.Json;
 
-var sale = new SaleWithTax(15, 1.16m);
-var message = sale.GetInfo();
-
-Console.WriteLine(message);
-
-
-class SaleWithTax : Sale
+var gilbert = new People()
 {
+    Name = "Gilbert",
+    Age = 28
+};
 
-    public decimal Tax { get; set; }
-    public SaleWithTax(decimal total, decimal tax) : base(total)
-    {
-        Tax = tax;
-    }
+string json = JsonSerializer.Serialize(gilbert);
 
-    public override string GetInfo()
-    {
-        return "El total es " + Total + " y el impuesto es " + Tax;
-    }
+Console.WriteLine(json);
 
-
-    // Sobrecarga
-    public string GetInfo(string message)
-    {
-        return message;
-    }
-
-
+string myJson = @"
+{
+    ""Name"":""Roberto"",
+    ""Age"":28
 }
+";
 
+People roberto = JsonSerializer.Deserialize<People>(myJson);
+Console.WriteLine(roberto?.Name);
+Console.WriteLine(roberto?.Age);
 
-class Sale
+public class People
 {
-    public decimal Total { get; set; }
-
-    public Sale(decimal total)
-    {
-        Total = total;
-    }
-
-    public virtual string GetInfo()
-    {
-        return "El total es " + Total;
-    }
-
+    public string Name { get; set; }
+    public int Age { get; set; }
 }
