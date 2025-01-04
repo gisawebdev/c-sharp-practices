@@ -3,12 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\GilbertoAcostaBocio\\Documents\\GitHub\\c-sharp-practices\\TodoListApi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C51DC1DC-C208-4DE0-91E7-3DCD66949960}|TodoListApi\\TodoListApi.csproj|c:\\users\\gilbertoacostabocio\\documents\\github\\c-sharp-practices\\todolistapi\\todolistapi\\context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C51DC1DC-C208-4DE0-91E7-3DCD66949960}|TodoListApi\\TodoListApi.csproj|solutionrelative:todolistapi\\context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C51DC1DC-C208-4DE0-91E7-3DCD66949960}|TodoListApi\\TodoListApi.csproj|c:\\users\\gilbertoacostabocio\\documents\\github\\c-sharp-practices\\todolistapi\\todolistapi\\models\\todoitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C51DC1DC-C208-4DE0-91E7-3DCD66949960}|TodoListApi\\TodoListApi.csproj|solutionrelative:todolistapi\\models\\todoitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C51DC1DC-C208-4DE0-91E7-3DCD66949960}|TodoListApi\\TodoListApi.csproj|c:\\users\\gilbertoacostabocio\\documents\\github\\c-sharp-practices\\todolistapi\\todolistapi\\controllers\\todoitemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C51DC1DC-C208-4DE0-91E7-3DCD66949960}|TodoListApi\\TodoListApi.csproj|solutionrelative:todolistapi\\controllers\\todoitemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,27 +19,15 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\GilbertoAcostaBocio\\Documents\\GitHub\\c-sharp-practices\\TodoListApi\\TodoListApi\\Context\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "TodoListApi\\Context\\AppDbContext.cs",
-              "ToolTip": "C:\\Users\\GilbertoAcostaBocio\\Documents\\GitHub\\c-sharp-practices\\TodoListApi\\TodoListApi\\Context\\AppDbContext.cs",
-              "RelativeToolTip": "TodoListApi\\Context\\AppDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAMAAAAAAAAAA==",
+              "Title": "TodoItemsController.cs",
+              "DocumentMoniker": "C:\\Users\\GilbertoAcostaBocio\\Documents\\GitHub\\c-sharp-practices\\TodoListApi\\TodoListApi\\Controllers\\TodoItemsController.cs",
+              "RelativeDocumentMoniker": "TodoListApi\\Controllers\\TodoItemsController.cs",
+              "ToolTip": "C:\\Users\\GilbertoAcostaBocio\\Documents\\GitHub\\c-sharp-practices\\TodoListApi\\TodoListApi\\Controllers\\TodoItemsController.cs",
+              "RelativeToolTip": "TodoListApi\\Controllers\\TodoItemsController.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwBwAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-03T18:58:34.245Z",
+              "WhenOpened": "2025-01-04T14:18:59.868Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "TodoItem.cs",
-              "DocumentMoniker": "C:\\Users\\GilbertoAcostaBocio\\Documents\\GitHub\\c-sharp-practices\\TodoListApi\\TodoListApi\\Models\\TodoItem.cs",
-              "RelativeDocumentMoniker": "TodoListApi\\Models\\TodoItem.cs",
-              "ToolTip": "C:\\Users\\GilbertoAcostaBocio\\Documents\\GitHub\\c-sharp-practices\\TodoListApi\\TodoListApi\\Models\\TodoItem.cs",
-              "RelativeToolTip": "TodoListApi\\Models\\TodoItem.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-03T18:54:24.882Z"
             }
           ]
         }
